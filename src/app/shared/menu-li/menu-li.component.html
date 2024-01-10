@@ -1,0 +1,15 @@
+<!-- testa condicionais -->
+<nav>
+
+    @for (items of item; track $index) {
+    <ul>
+        @for (i of items; track $index) {
+        @if ($index==0) {
+        <li class="titul">{{i}}</li>
+        }@else{
+        <li><a href="#">{{i}}</a></li>
+        }
+        }
+    </ul>
+    }
+</nav>

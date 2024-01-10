@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+ul{
+    margin-left: 50px;
+    list-style: none;
+}
+li{
+    margin: 10px;
+}
+li a{
+    color: gray;
+    text-decoration: none;
+}

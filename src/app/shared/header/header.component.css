@@ -1,0 +1,54 @@
+.minilid > ul,.minili > ul{
+   display: flex;
+   flex-direction: row; 
+   list-style: none;
+}
+header{
+    width: 100%;
+}
+.minili ul li{
+    margin-left: 5px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #3b3b3b9d;
+}
+.minilid ul li{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 15px;
+
+    color: #3b3b3b;
+}
+.logosubmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: -10px;
+}
+.logo img{
+    height: 3rem;
+    width: 10rem;
+}
+.header__um{
+    padding: 10px;
+    background-color: #ffffffd5;
+}
+.header__dois{
+    padding: 5px;
+    background-color: #e0e0e04f;
+    display: flex;
+}
+hr{
+    border-color: #3a29410e;
+}
+
+@media screen and (max-width: 700px) {
+    .minili,.minilid{
+        display: none;
+    }
+    app-search{
+        width: calc(100% - 10px);
+    }
+}

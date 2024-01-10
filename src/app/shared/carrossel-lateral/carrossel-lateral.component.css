@@ -1,0 +1,31 @@
+.circo,.color-changing-div{
+	height: 20px;
+    width: 20px;
+    border-radius: 50px;
+	background-color: #e4e2e2;
+	cursor: pointer;
+
+}
+.color-changing-div{
+    background: linear-gradient(95deg,#6d059d, #640eaf, #e4e2e2, #e4e2e2 );
+	background-size: 400% 400%;
+	animation: gradient 8s  backwards;
+	height: 20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.carrega{
+    display: flex;
+    flex-direction: row;
+}
+@keyframes gradient {
+	0% {
+		background-position: 100% 50%;
+	}
+	50% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
